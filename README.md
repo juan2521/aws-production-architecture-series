@@ -4,7 +4,7 @@ Production-grade AWS architecture articles focused on security, resilience, obse
 
 ## Practitioner perspective
 
-This series is not intended to be a catalog of AWS icons or a rewritten service manual. I use each architecture to document **how I would reason about a production design**: the requirement behind a component, the risk it reduces, the trade-off it introduces, what I would validate operationally, and what I would change when the business context changes.
+This series is not intended to be a catalog of AWS icons or a rewritten service manual. I use each architecture to document **how I would reason about a production design**: the requirement behind a component, the risk it reduces, the advantages and compromises of each option, what I would validate operationally, and what I would change when the business context changes.
 
 In real projects, architecture decisions are rarely made in isolation. Existing networks, security requirements, budget, operational maturity, legacy dependencies, recovery objectives, and team capabilities all influence the final design. For that reason, each article aims to distinguish between:
 
@@ -24,14 +24,14 @@ The goal is simple: every architecture should be something I can **defend in a t
 
 ## Purpose
 
-This repository is a hands-on architecture portfolio. Each article explains not only **what** AWS services are used, but **why**, the threat model being addressed, key design trade-offs, operational considerations, and an Infrastructure as Code starting point.
+This repository is a hands-on architecture portfolio. Each article explains not only **what** AWS services are used, but **why**, the threat model being addressed, key design decisions and alternatives, operational considerations, and an Infrastructure as Code starting point.
 
 ## 👤 About the Author
 
 **Juan Gutierrez**  
 Solutions Architect focused on Cloud Architecture, Kubernetes, Security, FinOps, and Cloud Modernization.
 
-This series documents architecture decisions, trade-offs, security, resilience, cost, and Infrastructure as Code from a practitioner perspective.
+This series documents architecture decisions, alternatives, security, resilience, cost, and Infrastructure as Code from a practitioner perspective.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/juan-gutierrez25)  
 💻 [GitHub](https://github.com/juan2521)
