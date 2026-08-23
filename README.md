@@ -26,8 +26,14 @@ The goal is simple: every architecture should be something I can **defend in a t
 
 This repository is a hands-on architecture portfolio. Each article explains not only **what** AWS services are used, but **why**, the threat model being addressed, key design trade-offs, operational considerations, and an Infrastructure as Code starting point.
 
-## Author
+## 👤 About the Author
 
-**Juan Gutierrez** — Solutions Architect focused on Multi-Cloud, Security, Cloud Modernization, Kubernetes, FinOps, and Generative AI.
+**Juan Gutierrez**  
+Solutions Architect focused on Cloud Architecture, Kubernetes, Security, FinOps, and Cloud Modernization.
+
+This series documents architecture decisions, trade-offs, security, resilience, cost, and Infrastructure as Code from a practitioner perspective.
+
+🔗 [LinkedIn](https://www.linkedin.com/in/juan-gutierrez25)  
+💻 [GitHub](https://github.com/juan2521)
 
 > The examples in this repository are reference architectures for learning and portfolio purposes. Validate service limits, pricing, compliance requirements, security controls, and workload-specific requirements before production use.
