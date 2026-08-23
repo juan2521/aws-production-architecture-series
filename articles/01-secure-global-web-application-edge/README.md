@@ -44,6 +44,10 @@ This pattern is a good fit for public web applications, customer portals, APIs d
 
 ## Architecture
 
+<p align="center">
+  <img src="./architecture_exact_lossless.png" alt="AWS Production Architecture #01 - Secure Global Web Application Edge" width="1200">
+</p>
+
 ```mermaid
 flowchart TB
     U[Internet Users] --> R53[Amazon Route 53\nAlias Record]
