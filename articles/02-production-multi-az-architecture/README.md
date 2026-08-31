@@ -28,7 +28,6 @@ AWS Well-Architected recommends operating production workloads in at least two A
 
 ## Architecture
 
-<!-- IMAGE READY FOR MANUAL UPLOAD: ./architecture_exact_lossless.png -->
 <p align="center">
   <img src="./architecture_exact_lossless.png" alt="AWS Production Architecture #02 - Production Multi-AZ Architecture" width="1200">
 </p>
