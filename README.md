@@ -14,7 +14,7 @@ In real projects, existing networks, security requirements, budget, operational 
 |---|---|---|---|
 | 01 | [Secure Global Web Application Edge](articles/01-secure-global-web-application-edge/README.md) | Route 53, CloudFront, AWS WAF, Shield, ALB, ACM, CloudWatch | Published |
 | 02 | [Building for Production with Multi-AZ](articles/02-production-multi-az-architecture/README.md) | VPC, Availability Zones, ALB, Auto Scaling, NAT Gateway, RDS Multi-AZ | Published |
-| 03 | Kubernetes at Scale — Amazon EKS | EKS, node architecture, scaling, security, operations | Upcoming |
+| 03 | [Kubernetes at Scale — Amazon EKS](articles/03-kubernetes-at-scale-amazon-eks/README.md) | EKS, node architecture, scaling, security, operations | Published |
 | 04 | Defense in Depth | AWS security architecture | Upcoming |
 | 05 | The Serverless World | Event-driven and serverless architecture | Upcoming |
 | 06 | The GenAI Era | Amazon Bedrock | Upcoming |
