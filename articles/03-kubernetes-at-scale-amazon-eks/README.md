@@ -33,7 +33,7 @@ AWS recommends Multi-AZ EKS deployments and topology controls for Pod placement.
 ## 🗺️ Architecture
 
 <p align="center">
-  <img src="./article-03-kubernetes-at-scale-architecture.png" alt="AWS Production Architecture Series - Article 03 - Kubernetes at Scale on Amazon EKS - Designed by Juan Gutierrez" width="1200">
+  <img src="./article-03-kubernetes-at-scale-architecture.png.png?v=20260909-0457" alt="AWS Production Architecture Series - Article 03 - Kubernetes at Scale on Amazon EKS - Designed by Juan Gutierrez" width="1200">
 </p>
 
 > **Architecture for this article.** An ALB managed by AWS Load Balancer Controller exposes services. The managed EKS control plane connects to private workers across three AZs. A small Managed Node Group provides stable platform capacity while Karpenter provisions dynamic application capacity. EKS Pod Identity provides temporary per-application AWS credentials; CloudWatch and CloudTrail cover operations and audit.
