@@ -38,23 +38,6 @@ AWS recommends Multi-AZ EKS deployments and topology controls for Pod placement.
 
 > **Architecture for this article.** An ALB managed by AWS Load Balancer Controller exposes services. The managed EKS control plane connects to private workers across three AZs. A small Managed Node Group provides stable platform capacity while Karpenter provisions dynamic application capacity. EKS Pod Identity provides temporary per-application AWS credentials; CloudWatch and CloudTrail cover operations and audit.
 
-```text
-Users → ALB → Ingress / Services
-                 │
-            Amazon EKS
-      ┌──────────┼──────────┐
-     AZ-A       AZ-B       AZ-C
-    workers    workers    workers
-      └──────────┼──────────┘
-           Pods / HPA
-                 │
-    Pod Identity → AWS APIs
-
-Managed Node Group → stable platform capacity
-Karpenter          → dynamic application capacity
-CloudWatch/CloudTrail → operations and audit
-```
-
 ---
 
 # 🧠 Decision 01 — The cluster is not the unit of high availability
