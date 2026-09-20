@@ -16,7 +16,7 @@ In real projects, existing networks, security requirements, budget, operational 
 | 02 | [Building for Production with Multi-AZ](articles/02-production-multi-az-architecture/README.md) | VPC, Availability Zones, ALB, Auto Scaling, NAT Gateway, RDS Multi-AZ | Published |
 | 03 | [Kubernetes at Scale — Amazon EKS](articles/03-kubernetes-at-scale-amazon-eks/README.md) | EKS, node architecture, scaling, security, operations | Published |
 | 04 | [Defense in Depth](articles/04-defense-in-depth/README.md) | AWS security architecture | Published |
-| 05 | The Serverless World | Event-driven and serverless architecture | Upcoming |
+| 05 | [The Serverless World](articles/05-serverless-world/README.md) | Event-driven and serverless architecture | Published |
 | 06 | The GenAI Era | Amazon Bedrock | Upcoming |
 | 07 | The Data Path | Data architecture | Upcoming |
 | 08 | Observing the Cloud | Observability | Upcoming |
