@@ -32,10 +32,8 @@ Serverless removes servers to manage; it does not remove architecture decisions.
 ## 🗺️ Architecture
 
 <p align="center">
-  <img src="./architecture/chapter-05-serverless-event-driven-architecture.png" alt="AWS Production Architecture Series - Chapter 05 - The Serverless World - Designed by Juan Gutierrez" width="1200">
+  <img src="./cb87c680-3386-44c8-bb55-eff95dc98c67.png" alt="AWS Production Architecture Series - Chapter 05 - The Serverless World - Designed by Juan Gutierrez" width="1200">
 </p>
-
-> **Image pending manual upload:** `articles/05-serverless-world/architecture/chapter-05-serverless-event-driven-architecture.png`
 
 The reference architecture separates two paths. The **synchronous path** uses Amazon API Gateway, Lambda, and DynamoDB to accept and persist intent quickly. The **asynchronous path** publishes domain events to EventBridge, buffers work with SQS, and runs independent Lambda consumers. Step Functions is introduced only where a workflow genuinely needs visible state, compensation, or decisions.
 
