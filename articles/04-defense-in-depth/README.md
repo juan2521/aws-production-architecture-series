@@ -32,10 +32,8 @@ Real security is not placing a WAF in front of an application and declaring the 
 ## 🗺️ Architecture
 
 <p align="center">
-  <img src="./architecture/chapter-04-defense-in-depth-architecture.png" alt="AWS Production Architecture Series - Article 04 - Defense in Depth - Designed by Juan Gutierrez" width="1200">
+  <img src="./Arquitectura%20AWS%20de%20Defensa%20en%20Profundidad.png" alt="AWS Production Architecture Series - Article 04 - Defense in Depth - Designed by Juan Gutierrez" width="1200">
 </p>
-
-> **Image pending manual upload:** `articles/04-defense-in-depth/architecture/chapter-04-defense-in-depth-architecture.png`
 
 The reference design separates Workload, Security Tooling, Log Archive, and Network/Shared Services accounts. Web traffic crosses Route 53, CloudFront, WAF, and the load balancer; centralized network inspection is introduced only when the risk model justifies it. GuardDuty, Inspector, and Security Hub centralize detection while CloudTrail, Config, VPC Flow Logs, and application logs are retained independently from workload administrators.
 
