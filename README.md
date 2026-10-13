@@ -18,7 +18,7 @@ In real projects, existing networks, security requirements, budget, operational 
 | 04 | [Defense in Depth](articles/04-defense-in-depth/README.md) | AWS security architecture | Published |
 | 05 | [The Serverless World](articles/05-serverless-world/README.md) | Event-driven and serverless architecture | Published |
 | 06 | [The GenAI Era](articles/06-genai-era-amazon-bedrock/README.md) | Amazon Bedrock, RAG, Guardrails, evaluation, inference | Published |
-| 07 | The Data Path | Data architecture | Upcoming |
+| 07 | [The Data Path](articles/07-the-data-path/README.md) | Governed lakehouse, ingestion, Glue, Lake Formation, Athena, Terraform | Published |
 | 08 | Observing the Cloud | Observability | Upcoming |
 | 09 | Architecture with FinOps | Cost-aware architecture | Upcoming |
 | 10 | The Cloud Organization | Multi-account governance | Upcoming |
