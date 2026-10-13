@@ -26,9 +26,7 @@ A data lake is not a collection of buckets. The real risk is not storing terabyt
 
 ## 🗺️ Architecture
 
-![The Data Path — AWS production architecture by Juan Gutierrez](./architecture/chapter-07-data-path-architecture.png)
-
-**Awaiting manual image upload:** `articles/07-the-data-path/architecture/chapter-07-data-path-architecture.png`.
+![Chapter 07 — The Data Path — AWS data lake architecture by Juan Gutierrez](./Arquitectura%20moderna%20del%20lago%20de%20datos%20en%20AWS.png)
 
 **Flow:** batch producers → S3 raw; event producers → Kinesis Data Streams → S3 raw landing consumer; AWS Glue validates and transforms, sends rejects to S3 quarantine, and writes compressed Parquet to S3 curated; Glue Data Catalog and Lake Formation govern access; Athena queries curated data and Redshift serves selected warehouse workloads. CloudWatch and CloudTrail cover operational telemetry and API auditing. **This is a reference pattern, not a mandate to deploy every component on day one.**
 
