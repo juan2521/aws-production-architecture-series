@@ -14,15 +14,8 @@ A platform built on an Application Load Balancer, Amazon EKS/EC2, Lambda and Ama
 
 ![AWS observability architecture](./49737de8-3541-4809-a9b2-a5e7f2c53a63.png)
 
-*Conceptual diagram. The PNG is added separately; this Markdown reference alone does not prove that the image exists.*
 
-```text
-Clients → ALB → EKS/EC2 → RDS
-                 ↘ OpenTelemetry / instrumentation → metrics, logs, traces
-Lambda / API Gateway → CloudWatch Logs, metrics / AWS X-Ray
-CloudWatch dashboards + alarms → SNS → on-call + runbooks
 ```
-
 CloudWatch provides native infrastructure and application metrics. CloudWatch Logs centralizes structured events; X-Ray or OpenTelemetry traces help correlate calls across dependencies. CloudWatch alarms notify SNS, optionally triggering controlled automation.
 
 ## Architecture decisions and trade-offs
