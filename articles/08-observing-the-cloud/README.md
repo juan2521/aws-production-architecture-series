@@ -12,7 +12,7 @@ A platform built on an Application Load Balancer, Amazon EKS/EC2, Lambda and Ama
 
 ## Reference architecture
 
-![AWS observability architecture](./aws-observability-architecture.svg)
+![AWS observability architecture](./49737de8-3541-4809-a9b2-a5e7f2c53a63.png)
 
 *Conceptual diagram. The PNG is added separately; this Markdown reference alone does not prove that the image exists.*
 
