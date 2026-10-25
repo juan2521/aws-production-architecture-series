@@ -20,7 +20,7 @@ In real projects, existing networks, security requirements, budget, operational 
 | 06 | [The GenAI Era](articles/06-genai-era-amazon-bedrock/README.md) | Amazon Bedrock, RAG, Guardrails, evaluation, inference | Published |
 | 07 | [The Data Path](articles/07-the-data-path/README.md) | Governed lakehouse, ingestion, Glue, Lake Formation, Athena, Terraform | Published |
 | 08 | [Observing the Cloud](articles/08-observing-the-cloud/README.md) | Observability, CloudWatch, X-Ray, OpenTelemetry, Terraform | Published |
-| 09 | Architecture with FinOps | Cost-aware architecture | Upcoming |
+| 09 | [Architecture with FinOps](articles/09-architecture-with-finops/README.md) | Cost allocation, Budgets, CUR 2.0, anomaly detection, optimization, Terraform | Published |
 | 10 | The Cloud Organization | Multi-account governance | Upcoming |
 | 11 | Surviving a Region | Multi-Region resilience | Upcoming |
 | 12 | The Final Architecture | Integrated production architecture | Upcoming |
