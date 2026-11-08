@@ -22,7 +22,7 @@ In real projects, existing networks, security requirements, budget, operational 
 | 08 | [Observing the Cloud](articles/08-observing-the-cloud/README.md) | Observability, CloudWatch, X-Ray, OpenTelemetry, Terraform | Published |
 | 09 | [Architecture with FinOps](articles/09-architecture-with-finops/README.md) | Cost allocation, Budgets, CUR 2.0, anomaly detection, optimization, Terraform | Published |
 | 10 | [The Cloud Organization](articles/10-the-cloud-organization/README.md) | AWS Organizations, Control Tower, IAM Identity Center, SCP/RCP, Terraform | Published |
-| 11 | Surviving a Region | Multi-Region resilience | Upcoming |
+| 11 | [Surviving a Region](articles/11-surviving-a-region/README.md) | Multi-Region resilience, RTO/RPO, Route 53, ARC, Terraform | Published |
 | 12 | The Final Architecture | Integrated production architecture | Upcoming |
 
 ## 👤 About the Author
